@@ -1,0 +1,20 @@
+{
+  "name": "tailwindbasics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwind -i ./src/input.css -o ./dist/text.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "postcss": "^8.4.20",
+    "postcss-cli": "^10.1.0"
+  }
+}
