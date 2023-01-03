@@ -21,7 +21,7 @@
               <a class="text-green-500 border-b-4 border-green-500 py-8 px-2 hover:text-gray-500 transition duration-300"
                 href="">Home</a>
               <a class="text-green-500 py-8 px-2 hover:text-gray-500 transition duration-300"
-                href="">Get a Quote</a>
+                href="">All Products</a>
               <a class="text-green-500 py-8 px-2 hover:text-gray-500 transition duration-300"
                 href="">About</a>
               <a class="text-green-500 py-8 px-2 hover:text-gray-500 transition duration-300"
@@ -37,15 +37,22 @@
       <div class="sm:text-center">
         <h1 class="tracking-tight font-extrabold text-4xl sm:text-5xl md:text-6xl">
           <span class="block">Premium Quality,</span>
-          <span class="block text-green-500">Non-premium Prices</span></h1>
+          <span class="block text-green-500">Non-premium Prices</span>
         </h1>
-        <p class="text-base mt-3 text-gray-500 md:text-xl md:mt-5 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto">At Tech Shop, we ensure that our customers get premium quality products at affordable prices. Quality is our priority and affordability is our mission. We have 1000+ quality tech products from around the globe for you to choose from.</p>
+        </h1>
+        <p
+          class="text-base mt-3 text-gray-500 md:text-xl md:mt-5 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto">
+          At Tech Shop, we ensure that our customers get premium quality products at affordable
+          prices. Quality is our priority and affordability is our mission. We have 1000+ quality
+          tech products from around the globe for you to choose from.</p>
         <div class="mt-5 sm:mt-8 sm:flex sm:justify-center">
           <div class="md:m-3 sm:m-3">
-            <a class="flex w-full justify-center rounded-md bg-green-500 text-white px-8 py-3" href="">View Products</a>
+            <a class="flex w-full justify-center rounded-md bg-green-500 text-white px-8 py-3"
+              href="">View Products</a>
           </div>
           <div class="md:m-3 sm:m-3 mt-3">
-            <a class="flex w-full justify-center rounded-md bg-green-100 text-green-700 px-8 py-3" href="">Explore Deals</a>
+            <a class="flex w-full justify-center rounded-md bg-green-100 text-green-700 px-8 py-3"
+              href="">Explore Deals</a>
           </div>
 
         </div>
@@ -58,25 +65,66 @@
     </div>
 
     <!-- card section -->
-    <div>
-      <img src="images/Gaming.png" alt="">
-      <div>
-        <h4>Gaming PC</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quasi quibusdam eligendi! Pariatur rerum excepturi alias facere saepe laboriosam dolorum!</p>
+    <div class="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 p-10">
+      <div class="rounded overflow-hidden shadow-lg">
+        <img class="w-full" src="images/Gaming.png" alt="">
+        <div class="px-6 py-4">
+          <h4 class="font-bold text-xl mb-2">Gaming PC</h4>
+          <p class="text-gray-700">The ultimate gaming setup. Impress your friends with 120+ fps. Rank at the top in first person shooters. Grab this great deal while they are in stock.</p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span class="text-green-500 font-bold px-3 py-1 mr-2 mb-2">$2100</span>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span class="inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Ryzen 9 5800x</span>
+          <span class="inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">GTX 3060</span>
+          <span class="inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Wifi 6</span>
+        </div>
+        <div class="px-6 pt-4 pb-10">
+          <button class="inline-block rounded-full bg-green-500 px-4 py-1 font-bold text-white mr-2 mb-2">View details</button>
+        </div>
       </div>
-      <div>
-        <span>$2100</span>
+
+      <div class="rounded overflow-hidden shadow-lg">
+        <img class="w-full" src="images/macbook.jpg" alt="">
+        <div class="px-6 py-4">
+          <h4 class="font-bold text-xl mb-2">MacBook Pro</h4>
+          <p class="text-gray-700">Perfect for working from home or just surfing the web and chatting wih friends on social media. If you always wanted to join the apple revolution now is the time! </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span class="text-green-500 font-bold px-3 py-1 mr-2 mb-2">$500</span>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span class="inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">A1278 Core 2 Duo</span>
+          <span class="inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Free Delivery</span>
+          <span class="inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Wifi 6</span>
+        </div>
+        <div class="px-6 pt-4 pb-10">
+          <button class="inline-block rounded-full bg-green-500 px-4 py-1 font-bold text-white mr-2 mb-2">View details</button>
+        </div>
       </div>
-      <div>
-        <span>Ryzen 9 5800x</span>
-        <span>GTX 4090</span>
-        <span>Wifi 6</span>
-      </div>
-      <div>
-        <button>View details</button>
+
+      <div class="rounded overflow-hidden shadow-lg">
+        <img class="w-full" src="images/alienware.jpg" alt="">
+        <div class="px-6 py-4">
+          <h4 class="font-bold text-xl mb-2">👽Alienware R13</h4>
+          <p class="text-gray-700">Alienware's new design does not disappoint with it's water-cooled i7-12700KF, 32GB Ram, and RTX 3080 graphics card.Faster frames and better cooling! </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span class="text-green-500 font-bold px-3 py-1 mr-2 mb-2">$3100</span>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span class="inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">New design</span>
+          <span class="inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Water-cooled</span>
+          <span class="inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">150+ fps</span>
+        </div>
+        <div class="px-6 pt-4 pb-10">
+          <button class="inline-block rounded-full bg-green-500 px-4 py-1 font-bold text-white mr-2 mb-2">View details</button>
+        </div>
       </div>
     </div>
     <!-- end card section -->
+    banner
 
 
   </body>
