@@ -677,12 +677,12 @@ video {
   max-width: 72rem;
 }
 
-.max-w-lg {
-  max-width: 32rem;
-}
-
 .max-w-7xl {
   max-width: 80rem;
+}
+
+.max-w-lg {
+  max-width: 32rem;
 }
 
 .resize-none {
@@ -1166,12 +1166,12 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:mt-6 {
-    margin-top: 1.5rem;
-  }
-
   .lg\:mt-20 {
     margin-top: 5rem;
+  }
+
+  .lg\:mt-6 {
+    margin-top: 1.5rem;
   }
 
   .lg\:w-1\/3 {
